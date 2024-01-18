@@ -59,14 +59,14 @@
           const submitButton = document.querySelector(".submit-btn");
           
           submitButton.addEventListener("click", () => {
-            const activerating = document.querySelector(".active.rating");
+            const activeRating = document.querySelector(".active.rating");
 
-            if (activerating) {
+            if (activeRating) {
               const output = document.querySelector("output");
               const wrapOne = document.querySelector(".wrap-one");
               const wrapTwo = document.querySelector(".wrap-two");
 
-              output.textContent = activerating.textContent;
+              output.textContent = activeRating.textContent;
               wrapOne.style.display = "none";
               wrapTwo.style.display = "flex";
             }
