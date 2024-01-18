@@ -62,13 +62,13 @@ h2 {
   color: var(--Medium-Grey);
   line-height: 1.5rem;
 }
-.rate-box {
+.rating-box {
   display: flex;
   justify-content: space-around;
   margin: 1rem 0;
   color: var(--Medium-Grey);
 }
-.rate {
+.rating {
   background-color: var(--Dark-Blue);
   padding: 25px;
   border-radius: 50%;
@@ -80,7 +80,7 @@ h2 {
   justify-content: center;
   transition: all 0.3s;
 }
-.rate:hover {
+.rating:hover {
   cursor: pointer;
   background-color: var(--Orange);
   color: var(--White);
@@ -124,7 +124,7 @@ button:hover {
   color: var(--Medium-Grey);
   line-height: 1.5rem;
 }
-.rate.active {
+.rating.active {
   background-color: var(--Medium-Grey);
   color: var(--White);
 }
